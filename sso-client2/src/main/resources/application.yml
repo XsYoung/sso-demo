@@ -1,0 +1,15 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /client2
+security:
+  oauth2:
+    client:
+      client-id: xsy2
+      client-secret: xsy2
+      user-authorization-uri: http://127.0.0.1:9999/server/oauth/authorize
+      access-token-uri: http://127.0.0.1:9999/server/oauth/token
+    resource:
+      jwt:
+        key-uri: http://127.0.0.1:9999/server/oauth/token_key
+

@@ -1,0 +1,7 @@
+server:
+  servlet:
+    context-path: /server
+  port: 9999
+security:
+  user:
+    password: 123456
